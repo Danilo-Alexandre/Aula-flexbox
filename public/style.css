@@ -9,13 +9,65 @@ header{
     justify-content: space-around;
 }
 
+.mainHeader{
+    box-shadow: 0px 0px 6px rgb(95, 95, 95);
+    margin-top: 5px;
+    margin-bottom: 20px
+}
+.form{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 95vw;
+    color: rgb(124, 124, 124)
+}
+
+
+.form p{
+    margin: 15px;
+    width: 50vw;
+    text-align: justify;
+    color: rgb(44, 44, 44);
+}
+.formText{
+    width: 85vw;
+}
+.cadastro{
+    font-size: min(8vw, 38px);
+    color: rgb(98, 98, 98);
+}
+.disponibilidade{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.form form{
+    width: 85vw;
+}
+
 .mobileMenu{
     align-self: center;
     height: min(5vw, 15px);
 
 
 }
-
+.cv{
+    background-color: rgb(127, 127, 127);
+    padding: 3px 40px;
+    margin-left: 15px;
+    color: white
+}
+.upload{
+    display: none;
+}
+.submit{
+    width: 85vw;
+    margin-bottom: 25px;
+    padding: 7px 0px;
+    color: white;
+    border: none;
+    background-color: rgb(247, 46, 79) ;
+}
 
 .logo{
     height: min(20vw, 55px);
@@ -182,6 +234,41 @@ ul.institucional,ul.categorias {
     }
     .mobileMenu{
         display: none;
+    }
+    .form{
+        display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    width: 100vw;
+    }
+    .textoLorem{
+        margin-top: 40px;
+    }
+    .form form{
+        width: 45vw;
+    }
+    .disponibilidade{
+        width: 45vw;
+    }
+    #contato{
+        width: 45vw;
+    }
+    .textoLorem p{
+        width: 35vw;
+    }
+    .cadastro{
+        width: 45vw;
+    font-size: min(4vw, 35px);
+    text-align: center;
+    }
+  
+    .submit{
+        width: 45vw;
+    }
+    .formText{
+    width: 45vw;
+
     }
     .photoshoot1{
         width: 32vw;

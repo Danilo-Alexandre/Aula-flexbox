@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Dh Shoes</title>
+</head>
+<body>
+    <header class="mainHeader">
+        <img class="logo" src="../imgs/logo-color.png" alt="Logo">
+        <img class="mobileMenu" src="../imgs/Vector.png" alt="">
+        <nav class="menu">
+        <ul class="menu">
+            <li>Todos os produtos</li>
+            <li>Coleções</li>
+            <li>Outlet</li>
+        </ul>
+    </nav>
+    </header>
+    <main>
+        <div class="form">
+            <form action="/formulario" method="post">
+                <h2 class="cadastro">Faça parte do nosso time</h2>
+                <br>
+                <label  for="nome">Nome</label>
+                <br>
+                <input id="nome" class="formText" required type="text" name="nome">
+                <br>
+                <label for="email">Email</label>
+                <br>
+                <input id="email" class="formText" required type="email" name="email">
+                <br>
+                <label for="telefone">Telefone</label>
+                <br>
+                <input id="telefone" class="formText" required type="number" name="telefone">
+                <br>
+                <label for="departamentos">Departamentos</label>
+                <br>
+                <select class="formText" id="departamentos" required name="departamentos">
+                    <option selected disabled ></option>
+                    <option value="rh">RH</option>
+                    <option value="adm">Administração</option>
+                    <option value="troca">Troca</option>
+                    <option value="pag">Pagamento</option>
+                </select>
+                <br><br>
+                <label for="disponibilidade">Disponibilidade</label>
+                <br>
+                <div class="disponibilidade">
+                    <div>
+                        <input id="disponibilidade" type="checkbox" value="integral" name="disponibilidade">
+                        <label for="disponibilidade">Integral (8h)</label>
+                    </div>
+
+                    <div>
+                        <input id="disponibilidade" type="checkbox" value="meio" name="disponibilidade">
+                        <label for="disponibilidade">Meio Período (4h)</label>
+                    </div>
+
+                    <div>
+                        <input id="disponibilidade" type="checkbox" value="free" name="disponibilidade">
+                        <label for="disponibilidade">Freelancer</label>
+                    </div>
+                </div>
+                <br><br>
+                <label id="contato" for="contato">Qual a melhor forma para entrarmos em contato com você?</label>
+                <br>
+                <div class="disponibilidade">
+                    <div>
+                        <input id="contato" type="radio" value="email" name="contato">
+                        <label for="contato">Email</label>
+                    </div>
+                    <div>
+                        <input id="contato" type="radio" value="ligacao" name="contato">
+                        <label for="contato">Ligação</label>
+                    </div>    
+                    <div>    
+                        <input id="contato" type="radio" value="whats" name="contato">
+                        <label for="contato">Whatsapp</label>
+                    </div>    
+                </div>
+                <br>
+                <br>
+                <label for="mensagem">Mensagem</label>
+                <br>
+                <textarea class="formText" name="mensagem"cols="30" rows="5"></textarea>
+                <br>
+                <br>
+                <label  for="cv">Curriculo</label>
+                <label class="cv" for="cv">Upload</label>
+                <input class="upload" type="file" name="cv" id="cv" value="upload">
+                <br>
+                <br>
+                <button class="submit" type="submit">Enviar</button>
+                
+
+            </form>
+            <div class="textoLorem">
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem illo perspiciatis, aliquam nesciunt nulla dolore architecto quidem voluptatum libero. Tempora magnam assumenda delectus.
+                </p>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem illo perspiciatis, aliquam nesciunt nulla dolore architecto quidem voluptatum libero. Tempora magnam assumenda delectus.
+                </p>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem illo perspiciatis, aliquam nesciunt nulla dolore architecto quidem voluptatum libero. Tempora magnam assumenda delectus.
+                </p>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div>
+            <img class="logoWhite" src="../imgs/logo-white.png" alt="logo-white">
+            <p class="lorem">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur esse odio provident non. Perspiciatis, laboriosam!
+            </p>
+        </div>
+        <dir>
+            <ul class="categorias">
+                <li>categorias</li>
+                <li>sandálias</li>
+                <li>botas</li>
+                <li>tênis</li>
+                <li>oxford</li>
+                <li>coturnos</li>
+            </ul>
+        </dir>
+        <dir>
+            <ul class="institucional">
+                <li>institucional</li>
+                <li>sobre nós</li>
+                <li>perguntas frequentes</li>
+                <li>politica de privacidade</li>
+                <li>rastreamento de pedidos</li>
+                <li>trabalhe conosco</li>
+                <li>contato</li>
+            </ul>
+        </dir>
+    </footer>
+</body>
+</html>
