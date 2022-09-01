@@ -251,8 +251,10 @@ ul.institucional,ul.categorias {
     .disponibilidade{
         width: 45vw;
     }
-    #contato{
+    .contato{
         width: 45vw;
+    display: flex;
+    justify-content: space-evenly;
     }
     .textoLorem p{
         width: 35vw;
