@@ -368,8 +368,20 @@ ul.categorias {
   .main-down {
     height: 600px;
   }
+  .form{
+    justify-content:center ;
+  }
+  .form form{
+    width: 450px
+  }
+  .formText, .submit, .contato, .disponibilidade, .cadastro{
+    width: 400px;
+  }
   .main-left {
     width: 380px;
+  }
+  .textoLorem p{
+    width: 300px;
   }
   .main-left img {
     width: 345px;
